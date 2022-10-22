@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 250px;
+}
+
+button {
+    color: rgb(13, 2, 41);
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#element1{
+    display: none;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+}
+
+#element2{
+    display: none;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    text-align: center;
+}
+
+#element3{
+    display: none;
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    text-align: center;
+}

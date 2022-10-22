@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(122, 78, 23);
+}
+
+.container {
+    position: absolute;
+    min-width: 800px;
+    min-height: 600px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* button {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    color: green;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: aqua;
+} */
+

@@ -1,0 +1,85 @@
+.container {
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* С помощью JS */
+
+.parent-js { 
+    height: 400px;
+    width: 400px;
+    background-color: rgba(59, 163, 33, 0.753);
+}
+
+.child-js {
+    width: 100px;
+    height: 100px;
+    background-color: #a2e5fa;
+    text-align: center;
+    color: rgb(53, 11, 11);
+    position: relative;
+}
+
+.child-js span {
+    position: absolute;
+    right: 10%;
+    top: 30px;
+    left: 6px;
+}
+
+
+/* С помощью CSS */
+.parent-css {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(165, 59, 40);
+}
+
+.child-css {
+    width: 100px;
+    height: 100px;
+    background-color: #e1a2fa;
+    text-align: center;
+    color: rgb(53, 11, 11);
+    position: relative;
+}
+
+.child-css span {
+    position: absolute;
+    right: 10%;
+    top: 30px;
+    left: 6px;
+}
+
+
+
+/* Только при помощи HTML - не нашел способа*/
+
+/* .parent-html { 
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(57, 33, 163, 0.753);
+}
+
+.child-html {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #facca2;
+    text-align: center;
+    color: rgb(53, 11, 11);
+    position: relative;
+}
+
+.child-html span {
+    position: absolute;
+    right: 10%;
+    top: 30px;
+    left: 6px;
+} */
